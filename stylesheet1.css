@@ -1,0 +1,109 @@
+body{
+    font-family: Courier;
+    color:#fff;
+    background-image:url(https://www.ssprotech.com/assets/images/wd1.jpg);
+    background-size:none;
+    margin:0 auto;
+    
+    
+}
+.login{
+    text-align: center;
+    margin:0 auto;
+    padding:40px;
+    width:250px;
+    margin-top:80px;
+    height:400px;
+    background-color: rgba(54, 55, 56, 0);
+
+}
+form{
+    width:240px;
+    text-align:center;
+}
+input[type=text]{
+    width:240px;
+    text-align:center;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #fff;
+    font-size:16px;
+    font-weight:200px;
+    padding:10px 0;
+    transition:border 0.5s;
+    outline:none;
+    color:#fff;
+}
+input[type=password]{
+    width:240px;
+    text-align:center;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #fff;
+    font-size:16px;
+    font-weight:200px;
+    padding:10px 0;
+    transition:border 0.5s;
+    outline:none;
+    color:#fff;
+}
+input[type=button]{
+    border:none;
+    width:190px;
+    background:white;
+    color:#000;
+    font-weight:bold;
+    font-size:16px;
+    line-height:25px;
+    padding:10px 0;
+    border-radius:15px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+   color:#fff;
+   background-color:black; 
+}
+h2{
+    color:white;
+    text-align:center;
+}
+a{
+    color:#239b76;
+    text-decoration:blink;
+    text-align:center;
+}
+a:hover{
+    color:skyblue;
+}
+.container{
+display:flex;
+flex-direction: column;
+width:100%;
+text-align:center;
+}
+::placeholder{
+color:aliceblue;
+opacity: 0.8;
+}
+.cong a{
+    color:#239b76;
+    margin-left:30px;
+
+}
+.cong{
+    
+    padding:40px;
+    margin-top:120px;
+    height:200px;
+    margin-left:180px;
+    margin:0 auto;
+    width:240px;
+}
+.signup{
+   padding:40px;
+    width:250px;
+    height: 430px;
+    margin-top: 90px;
+    margin-left:180px;
+    margin:0 auto;
+}

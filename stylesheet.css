@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier";
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-weight: bold;
+
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.radzen.com/documentation/login-background.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+.top-wrapper h3 {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  text-align:center;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.login{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #239b76;
+}
+.login:hover {
+  opacity: 1;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(33, 36, 36, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 100px;
+  margin-top: 5px;
+  height: 55px;
+}
+.header-left {
+  float: left;
+}
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container p{
+  color: rgb(23, 24, 24);
+}
+
