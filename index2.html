@@ -8,11 +8,11 @@
   </head>
   <body>
     <div class="login">
-      <form>
+      <form onsubmit="fn1()">
         <h2>Log In</h2>
-        <input type="text" class="username" placeholder="Username" required>
-        <input type="password" class="pass" placeholder="Password" required><br><br>
-        <a href="index3.html"><input type="button" value="Log in"></a><br><br>
+        <input type="text" class="username" placeholder="Username" id="uname" required minlength="4">
+        <input type="password" class="pass" placeholder="Password" id="pword" required minlength="6"><br><br>
+        <input type="submit" value="Log in"><br><br>
         <div class="container">
           <a href="index5.html">Reset Password</a>
         
@@ -23,3 +23,12 @@
     </div>
   </body>
 </html>
+<script type="text/javascript">
+function fn1(){
+  var uname = document.getElementById("uname").value;
+  var pword=document.getElementById("pword").value;
+  document.body.innerHTML=`${uname} you are now Logged In successfully. Enjoy the platform and do not forget to let your talent grow!`;
+
+
+}
+</script>
