@@ -21,4 +21,7 @@
     footer{
     text-align:center;
   }
+   span.inner{
+   text-align:left;
+   }
 }
