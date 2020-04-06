@@ -123,3 +123,19 @@ input[type=submit]:hover{
    color:#fff;
    background-color:black; 
 }
+span.inner{
+    text-align: center;
+    margin:0 auto;
+    padding:40px 40px;
+    width:250px;
+    margin-top:80px;
+    
+    height:400px;
+    background-color: rgba(54, 55, 56, 0);
+    font-size:18px;
+    font-family: Courier;
+    color:#fff;
+   
+    background-size:none;
+  
+}
