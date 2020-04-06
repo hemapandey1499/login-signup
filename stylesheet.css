@@ -67,9 +67,10 @@ header {
   z-index: 10;
 }
 .logo {
-  width: 100px;
+  width: 75px;
   margin-top: 5px;
   height: 55px;
+  border-radius:100px;
 }
 .header-left {
   float: left;
